@@ -17,5 +17,5 @@ Dados: Nome, e-mail, telefone, formação, experiência e área de interesse.
 // Deletar os dados
 - Função para deletar os registros no banco de dados.
 
-# Criar uma condicional para verificar se determinar registro está ou não no banco de dados.
+# Criar uma condicional para verificar se determinado registro está ou não no banco de dados.
 
