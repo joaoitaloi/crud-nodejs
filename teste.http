@@ -1,0 +1,36 @@
+### adicionar usuário
+POST http://localhost:3000/criarCandidato
+content-type: application/json
+
+{
+    "nome": "Carlos",
+    "endereco": "Rua 2 perto", 
+    "formacao": "Curso em Vendas",
+    "experiencia": "7 anos", 
+    "area": "Vendas"
+}
+
+### listar usuários
+GET http://localhost:3000/listarCandidato/
+
+### listar usuário por ID
+GET http://localhost:3000/candidatos/3
+
+### Pesquisar por nome
+GET http://localhost:3000/buscarNome/
+
+### Pesquisar por area
+GET http://localhost:3000/buscaArea/vendas
+
+### Atualizar endereço do candidato
+PUT http://localhost:3000/atualizarCandidato/2
+content-type: application/json
+
+{
+    "email": "ricardo@gmail.com",
+    "endereco": "Rua direta 1"
+}
+
+### Deletar usuário
+DELETE http://localhost:3000/deletarCandidato/
+content-type: application/json
